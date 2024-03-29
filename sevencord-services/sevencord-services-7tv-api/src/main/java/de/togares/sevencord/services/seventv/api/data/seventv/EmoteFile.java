@@ -1,13 +1,13 @@
 package de.togares.sevencord.services.seventv.api.data.seventv;
 
 public class EmoteFile {
-    private String name;
-    private String staticName;
-    private int width;
-    private int height;
-    private int frameCount;
-    private long size;
-    private String format;
+    protected String name;
+    protected String staticName;
+    protected int width;
+    protected int height;
+    protected int frameCount;
+    protected long size;
+    protected String format;
 
     public String getName() {
         return name;
