@@ -17,3 +17,4 @@ These need to be set for the application to run.
 
 
 - [Discord4J](https://github.com/Discord4J/Discord4J)
+- [Spring Boot](https://github.com/spring-projects/spring-boot)
