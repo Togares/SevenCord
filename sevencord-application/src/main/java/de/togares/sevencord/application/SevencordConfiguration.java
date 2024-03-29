@@ -2,6 +2,7 @@ package de.togares.sevencord.application;
 
 import de.togares.sevencord.services.discord.api.SevencordApi;
 import de.togares.sevencord.services.discord.core.DiscordCoreConfiguration;
+import de.togares.sevencore.services.seventv.core.SevenTVCoreConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,7 +11,8 @@ import org.springframework.context.annotation.Import;
 
 @Configuration
 @Import(value = {
-        DiscordCoreConfiguration.class
+        DiscordCoreConfiguration.class,
+        SevenTVCoreConfiguration.class
 })
 @ComponentScan
 public class SevencordConfiguration implements CommandLineRunner {
