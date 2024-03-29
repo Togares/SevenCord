@@ -17,6 +17,8 @@ These need to be set for the application to run.
 To post an emote via the bot use the following command. <br>
 `!sc <emoteName>` <br><br>
 Where `emoteName` is the case-sensitive name of the emote. <br><br>
+![image](https://github.com/Togares/SevenCord/assets/71195452/f02e8714-a96f-4652-956a-4e496739ef7a)
+
 Note that as of now, only global 7TV emotes work.
 
 ## Dependencies 
