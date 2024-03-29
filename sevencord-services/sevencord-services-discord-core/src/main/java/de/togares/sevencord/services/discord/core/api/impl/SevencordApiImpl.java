@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class SevencordApiImpl implements SevencordApi {
-    @Value("${sevencord.discord.token}")
+    @Value("#{environment.sevencordDiscordToken}")
     private String token;
 
     @Override
